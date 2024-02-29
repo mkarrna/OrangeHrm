@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T20:00:26 IST" name="Suite" finished-at="2024-02-29T20:00:54 IST" duration-ms="27758">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T20:00:26 IST" name="Test" finished-at="2024-02-29T20:00:54 IST" duration-ms="27758">
+      <class name="Manipal.OrangeHrm">
+        <test-method is-config="true" signature="loginTest()[pri:0, instance:Manipal.OrangeHrm@40238dd0]" started-at="2024-02-29T20:00:26 IST" name="loginTest" finished-at="2024-02-29T20:00:40 IST" duration-ms="13589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="navigate()[pri:0, instance:Manipal.OrangeHrm@40238dd0]" started-at="2024-02-29T20:00:40 IST" name="navigate" finished-at="2024-02-29T20:00:44 IST" duration-ms="3571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="FindElement(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.OrangeHrm@40238dd0]" started-at="2024-02-29T20:00:44 IST" name="FindElement" data-provider="supplier" finished-at="2024-02-29T20:00:45 IST" depends-on-methods="Manipal.OrangeHrm.navigate" duration-ms="1270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024-02-28]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2024-02-29]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2024-02-29]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[this is automation test - 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindElement -->
+        <test-method signature="FindElement(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.OrangeHrm@40238dd0]" started-at="2024-02-29T20:00:45 IST" name="FindElement" data-provider="supplier" finished-at="2024-02-29T20:00:50 IST" depends-on-methods="Manipal.OrangeHrm.navigate" duration-ms="4089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024-02-28]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2024-02-29]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2024-02-29]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[this is automation test - 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindElement -->
+        <test-method signature="FindElement(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.OrangeHrm@40238dd0]" started-at="2024-02-29T20:00:50 IST" name="FindElement" data-provider="supplier" finished-at="2024-02-29T20:00:54 IST" depends-on-methods="Manipal.OrangeHrm.navigate" duration-ms="4119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024-02-28]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2024-02-29]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2024-02-29]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[this is automation test - 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Manipal.OrangeHrm@40238dd0]" started-at="2024-02-29T20:00:54 IST" name="tearDown" finished-at="2024-02-29T20:00:54 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Manipal.OrangeHrm -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
