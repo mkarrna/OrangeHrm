@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Manipal.OrangeHrm">
+      <class name="Manipal.Attachment">
         <methods>
           <include name="tearDown"/>
-          <include name="FindElement"/>
-          <include name="navigate"/>
+          <include name="ValidAttachment"/>
           <include name="loginTest"/>
         </methods>
-      </class> <!-- Manipal.OrangeHrm -->
+      </class> <!-- Manipal.Attachment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T19:57:35 IST" name="Suite" finished-at="2024-02-29T19:58:20 IST" duration-ms="44654">
+  <suite started-at="2024-03-01T09:55:47 IST" name="Suite" finished-at="2024-03-01T09:56:21 IST" duration-ms="34011">
     <groups>
     </groups>
-    <test started-at="2024-02-29T19:57:35 IST" name="Test" finished-at="2024-02-29T19:58:20 IST" duration-ms="44654">
-      <class name="Manipal.OrangeHrm">
-        <test-method is-config="true" signature="loginTest()[pri:0, instance:Manipal.OrangeHrm@413f69cc]" started-at="2024-02-29T19:57:35 IST" name="loginTest" finished-at="2024-02-29T19:58:04 IST" duration-ms="29477" status="PASS">
+    <test started-at="2024-03-01T09:55:47 IST" name="Test" finished-at="2024-03-01T09:56:21 IST" duration-ms="34011">
+      <class name="Manipal.Immegration">
+        <test-method is-config="true" signature="loginTest()[pri:0, instance:Manipal.Immegration@39ac0c0a]" started-at="2024-03-01T09:55:47 IST" name="loginTest" finished-at="2024-03-01T09:55:57 IST" duration-ms="9621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="navigate()[pri:0, instance:Manipal.OrangeHrm@413f69cc]" started-at="2024-02-29T19:58:04 IST" name="navigate" finished-at="2024-02-29T19:58:08 IST" duration-ms="3983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigate -->
-        <test-method signature="FindElement(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.OrangeHrm@413f69cc]" started-at="2024-02-29T19:58:09 IST" name="FindElement" data-provider="supplier" finished-at="2024-02-29T19:58:11 IST" depends-on-methods="Manipal.OrangeHrm.navigate" duration-ms="1467" status="PASS">
+        <test-method signature="addRecord(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.Immegration@39ac0c0a]" started-at="2024-03-01T09:55:58 IST" name="addRecord" data-provider="supplier" finished-at="2024-03-01T09:56:03 IST" duration-ms="5109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,8 +46,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FindElement -->
-        <test-method signature="FindElement(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.OrangeHrm@413f69cc]" started-at="2024-02-29T19:58:11 IST" name="FindElement" data-provider="supplier" finished-at="2024-02-29T19:58:15 IST" depends-on-methods="Manipal.OrangeHrm.navigate" duration-ms="4522" status="PASS">
+        </test-method> <!-- addRecord -->
+        <test-method signature="addRecord(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.Immegration@39ac0c0a]" started-at="2024-03-01T09:56:03 IST" name="addRecord" data-provider="supplier" finished-at="2024-03-01T09:56:08 IST" duration-ms="5064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,8 +82,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FindElement -->
-        <test-method signature="FindElement(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.OrangeHrm@413f69cc]" started-at="2024-02-29T19:58:15 IST" name="FindElement" data-provider="supplier" finished-at="2024-02-29T19:58:19 IST" depends-on-methods="Manipal.OrangeHrm.navigate" duration-ms="4164" status="PASS">
+        </test-method> <!-- addRecord -->
+        <test-method signature="addRecord(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.String,java.lang.String)[pri:0, instance:Manipal.Immegration@39ac0c0a]" started-at="2024-03-01T09:56:08 IST" name="addRecord" data-provider="supplier" finished-at="2024-03-01T09:56:12 IST" duration-ms="4537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,12 +118,22 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FindElement -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Manipal.OrangeHrm@413f69cc]" started-at="2024-02-29T19:58:19 IST" name="tearDown" finished-at="2024-02-29T19:58:20 IST" duration-ms="211" status="PASS">
+        </test-method> <!-- addRecord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Manipal.Immegration@39ac0c0a]" started-at="2024-03-01T09:56:21 IST" name="tearDown" finished-at="2024-03-01T09:56:21 IST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Manipal.OrangeHrm -->
+      </class> <!-- Manipal.Immegration -->
+      <class name="Manipal.Attachment">
+        <test-method signature="InValidAttachment()[pri:0, instance:Manipal.Attachment@327bcebd]" started-at="2024-03-01T09:56:12 IST" name="InValidAttachment" finished-at="2024-03-01T09:56:16 IST" duration-ms="4005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidAttachment -->
+        <test-method signature="ValidAttachment()[pri:0, instance:Manipal.Attachment@327bcebd]" started-at="2024-03-01T09:56:16 IST" name="ValidAttachment" finished-at="2024-03-01T09:56:21 IST" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAttachment -->
+      </class> <!-- Manipal.Attachment -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

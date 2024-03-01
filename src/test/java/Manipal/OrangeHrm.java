@@ -31,7 +31,7 @@ import org.testng.annotations.Test;
 
 public class OrangeHrm {
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	@BeforeTest
 	
 	public void loginTest() throws InterruptedException
@@ -52,8 +52,26 @@ public class OrangeHrm {
 	}
 	
 	
-	@Test
-	public void navigate() throws InterruptedException
+
+	
+		
+//	}
+//	
+//	@Test(dependsOnMethods="addRecord")
+//	public void Expire_DateisGreaterThanIssue_Date() throws InterruptedException
+//	{
+//		
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[2]/div/div[3]/div/following::span")).isDisplayed());
+//		
+//	}
+	
+	public WebDriver Driver()
+	{
+		return this.driver;
+	}
+	
+	public static void navigateToImmigartion() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a/span")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -66,9 +84,9 @@ public class OrangeHrm {
 		
 	}
 	
-	@Test(dependsOnMethods="navigate",dataProvider="supplier",dataProviderClass=Dataproviderclass.class)
 	public void FindElement(String passNumber,Object issueDate, Object expireDate, Object approveDate, String eligibleStatus, String comment)
 	{
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//add button
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/div/button")).click();
@@ -94,20 +112,30 @@ public class OrangeHrm {
 		//submit
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
+		
+		
 	}
 	
+	public void AddAttach(String path) throws InterruptedException
+	{
 		
-//	}
-//	
-//	@Test(dependsOnMethods="addRecord")
-//	public void Expire_DateisGreaterThanIssue_Date() throws InterruptedException
-//	{
-//		
-//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//		Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[2]/div/div[3]/div/following::span")).isDisplayed());
-//		
-//	}
+		
+driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[5]/div[1]/div/button")).click();
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		WebElement Browse = driver.findElement(By.xpath("(//input[@type='file'])[1]"));
+		Browse.sendKeys(path);
+		
+		WebElement comments = driver.findElement(By.xpath("//textarea[@placeholder='Type comment here']"));
+		comments.click();
+		comments.sendKeys("File Uploaded");
+		System.out.println("Box");
+		WebElement save = driver.findElement(By.xpath("//button[normalize-space()='Save']"));
+		save.click();
+		System.out.println("Attachment is Saved");
 	
+	}
+
 	
 	@AfterTest
 	public void tearDown()
